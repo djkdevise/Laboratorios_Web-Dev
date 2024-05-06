@@ -1,7 +1,3 @@
-# Laboratorio Desarrollo WEB Curso BackEnd
-## Estrategia SenaTEC Alianza Sena + Mintic
-### Dicta Coursera + Facebook
-
 # Lab Instructions: Creating an HTML Document
 
 In this exercise you will you will practice creating a simple HTML document.<br><br>
@@ -62,4 +58,3 @@ You can also see your score in your Programming Assignment "My Submission" tab.
 * Ensure that the **DOCTYPE** is declared at the beginning of the file.
 * Remember that HTML documents have a specific structure.
 * Review the lessons *What is HTML?* and *HTML Documents.*
-
