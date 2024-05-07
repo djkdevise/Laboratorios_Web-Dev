@@ -1,0 +1,58 @@
+h1 {
+    color:blueviolet;
+}
+
+#header1{
+    color:green
+}
+
+/* Selector de elementos */
+p { 
+    color: blue; 
+  }
+
+  /* Selectores de ID */
+  #latest { 
+    background-color: purple; 
+  }
+
+  /* Selector de clase */
+.navigation { 
+  margin: 2px;
+}
+
+/* Elemento con selector de clase */
+p.introduction { 
+    margin: 2px;
+  }
+
+  /* Selectores descendientes */
+
+  #blog h1 {
+    color: blue;
+  }
+
+  #blog div h1 {
+    color: blue;
+  }
+
+  /* Selectores secundarios */
+
+  #blog > h1 {
+    color: blue;
+  }
+
+/* Pseudoclase :hover */
+a:hover {
+  color: orange;
+}
+
+/* Transformación de texto */
+p { 
+    text-transform: uppercase;
+  }
+
+  /* Decoración de texto */
+  p { 
+    text-decoration: underline red solid 5px;
+  }
