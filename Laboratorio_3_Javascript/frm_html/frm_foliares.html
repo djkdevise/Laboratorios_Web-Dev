@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Análisis Foliares</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link href="../style.css" rel="stylesheet">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row justify-content-start align-items-flex-start g-2">
+                <div class="menu" class="align-content-lg-start">
+                    <ul
+                        class="nav justify-content-start flex-column"
+                    >
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#" aria-current="page"
+                                >Active link</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Disabled link</a>
+                        </li>
+                    </ul>
+                                        
+                </div>
+                <div class="contenido">
+                    <h1>Análisis Foliares</h1>
+
+                    <form id="formularioBusqueda">
+                      <label for="id">ID:</label>
+                      <input type="text" id="id" name="id">
+                      <label for="fecha">Fecha:</label>
+                      <input type="date" id="fecha" name="fecha">
+                      <button type="submit">Buscar</button>
+                    </form>
+                  
+                    <table>
+                        <caption>Análisis Foliares</caption>
+                        <thead>
+                          <tr>
+                            <th>ID</th>
+                            <th>Fecha</th>
+                            <th>Finca</th>
+                            <th>Potrero</th>
+                            <th>Area</th>
+                            <th>Nitrógeno</th>
+                            <th>Potasio</th>
+                            <th>Fósforo</th>
+                            <th>Magnesio</th>
+                            <th>Calcio</th>
+                            <th>Cobre</th>
+                            <th>Hierro</th>
+                            <th>Zinc</th>
+                            <th>Manganeso</th>
+                            <th>Boro</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>1</td>
+                            <td>14-oct-23</td>
+                            <td>Santa Rita</td>
+                            <td>128</td>
+                            <td>1</td>
+                            <td>1.43</td>
+                            <td>1.6</td>
+                            <td>0.24</td>
+                            <td>0.2</td>
+                            <td>0.41</td>
+                            <td>3.76</td>
+                            <td>113</td>
+                            <td>30</td>
+                            <td>130</td>
+                            <td>3.2</td>
+                          </tr>
+                          <tr>
+                            <td>2</td>
+                            <td>23-oct-23</td>
+                            <td>Santa Rita</td>
+                            <td>12A Nano</td>
+                            <td>1</td>
+                            <td>1.42</td>
+                            <td>1.56</td>
+                            <td>0.24</td>
+                            <td>0.21</td>
+                            <td>0.41</td>
+                            <td>3.71</td>
+                            <td>106</td>
+                            <td>29</td>
+                            <td>123</td>
+                            <td>2.5</td>
+                          </tr>
+                          <tr>
+                            <td>3</td>
+                            <td>23-oct-23</td>
+                            <td>Santa Rita</td>
+                            <td>12A SOS</td>
+                            <td>1</td>
+                            <td>1.33</td>
+                            <td>1.61</td>
+                            <td>0.23</td>
+                            <td>0.2</td>
+                            <td>0.42</td>
+                            <td>3.67</td>
+                            <td>115</td>
+                            <td>30</td>
+                            <td>138</td>
+                            <td>1.6</td>
+                          </tr>
+                          </tbody>
+                      </table>
+                  
+                    <form id="formularioRegistro">
+                      <h2>Registro de Análisis Foliar</h2>
+                      <input type="hidden" id="idRegistro" name="idRegistro">
+                      <label for="fechaRegistro">Fecha:</label>
+                      <input type="date" id="fechaRegistro" name="fechaRegistro">
+                      <label for="fincaRegistro">Finca:</label>
+                      <input type="text" id="fincaRegistro" name="fincaRegistro">
+                      <label for="potreroRegistro">Potrero:</label>
+                      <input type="text" id="potreroRegistro" name="potreroRegistro">
+                      <label for="areaRegistro">Area:</label>
+                      <input type="number" id="areaRegistro" name="areaRegistro">
+                      <label for="nitrogenoRegistro">Nitrógeno:</label>
+                      <input type="number" id="nitrogenoRegistro" name="nitrogenoRegistro">
+                      <label for="potasioRegistro">Potasio:</label>
+                      <input type="number" id="potasioRegistro" name="potasioRegistro">
+                      <label for="fosforoRegistro">Fósforo:</label>
+                      <input type="number" id="fosforoRegistro" name="fosforoRegistro">
+                      <label for="magnesioRegistro">Magnesio:</label>
+                      <input type="number" id="magnesioRegistro" name="magnesioRegistro">
+                      <label for="calcioRegistro">Calcio:</label>
+                      <input type="number" id="calcioRegistro" name="calcioRegistro">
+                      <label for="cobreRegistro">Cobre:</label>
+                      <input type="number" id="cobreRegistro" name="cobreRegistro">
+                      <label for="hierroRegistro">Hierro:</label>
+                      <input type="number" id="hierroRegistro" name="hierroRegistro">
+                      <label for="zincRegistro">Zinc:</label>
+                      <input type="number" id="zincRegistro" name="zincRegistro">
+                      <label for="manganesoRegistro">Manganeso:</label>
+                      <input type="number" id="manganesoRegistro" name="manganesoRegistro">
+                      <label for="boroRegistro">Boro:</label>
+                      <input type="number" id="boroRegistro" name="boroRegistro">
+                      <button type="button" id="botonCrear">Crear</button>
+                      <button type="button" id="botonActualizar">Actualizar</button>
+                      <button type="button" id="botonEliminar">Eliminar</button>              
+                </div>
+            </div> 
+        </div>
+        
+        <div class="container">
+            <div class="formulario">
+              <h2>Formulario</h2>
+              <form>
+                <div class="fila">
+                  <label for="nombre">Nombre:</label>
+                  <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="fila">
+                  <label for="email">Correo electrónico:</label>
+                  <input type="email" id="email" name="email" required>
+                </div>
+                <div class="fila">
+                  <label for="asunto">Asunto:</label>
+                  <input type="text" id="asunto" name="asunto">
+                </div>
+                <div class="fila">
+                  <label for="mensaje">Mensaje:</label>
+                  <textarea id="mensaje" name="mensaje"></textarea>
+                </div>
+                <button type="submit">Enviar</button>
+              </form>
+            </div>
+          </div>
+        <footer>
+            <!-- place footer here -->
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

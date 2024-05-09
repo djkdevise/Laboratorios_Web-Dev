@@ -1,0 +1,190 @@
+h1 {
+    color:blueviolet;
+}
+
+#header1{
+    color:green
+}
+
+/* Selector de elementos */
+p { 
+    color: blue; 
+  }
+
+  /* Selectores de ID */
+  #latest { 
+    background-color: purple; 
+  }
+
+  /* Selector de clase */
+.navigation { 
+  margin: 2px;
+}
+
+/* Elemento con selector de clase */
+p.introduction { 
+    margin: 2px;
+  }
+
+  /* Selectores descendientes */
+
+  #blog h1 {
+    color: blue;
+  }
+
+  #blog div h1 {
+    color: blue;
+  }
+
+  /* Selectores secundarios */
+
+  #blog > h1 {
+    color: blue;
+  }
+
+/* Pseudoclase :hover */
+a:hover {
+  color: orange;
+}
+
+/* Transformación de texto */
+p { 
+    text-transform: uppercase;
+  }
+
+  /* Decoración de texto */
+  p { 
+    text-decoration: underline red solid 5px;
+  }
+
+  body{
+    font-family: verdana, helvetica;
+    font-weight: bold;
+ }
+ 
+ #nav{
+    width: 155px;
+ }
+ 
+ .titulonav{
+    border: 1px solid #d7d7d7;   
+    font-size: 8pt;
+    font-weight: bold;
+    background-color: #e0e0e0;
+    color: #000;
+    padding: 4px;
+ }
+ 
+ .cuerporec{
+    margin-top: 0px;
+    margin-right: 0pt;
+    margin-bottom: 10px;
+    margin-left: 0pt;
+ }
+ 
+ .cuerporec ul{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding-top: 0pt;
+    padding-right: 0pt;
+    padding-bottom: 0pt;
+    padding-left: 0px;
+    list-style-type: none;
+    list-style-image: none;
+    list-style-position: outside;
+ }
+ 
+ .cuerporec li{
+    border-bottom: 1px solid #d7d7d7;   
+    border-left: 1px solid #d7d7d7;   
+    border-right: 1px solid #d7d7d7;   
+    padding: 1px 0 2px 4px;
+    font-size: 8pt;
+    margin-top: 0px;
+    margin-right: 0pt;
+    margin-bottom: 0px;
+    margin-left: 0pt;
+    background-color: #ffffcc;
+ }
+ 
+ .cuerporec a{
+    text-decoration: none;
+ }
+
+
+ body {
+  margin: 20px; /* Margen de 20px alrededor del contenido */
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr); /* 12 columnas de igual ancho */
+  gap: 20px; /* Espacio entre columnas */
+}
+
+form {
+  width: 100%; /* Ancho completo del contenedor */
+  padding: 10px;
+  border: 3px solid #999; /* Borde tipo frame */
+  border-radius: 10px; /* Esquinas redondeadas */
+  margin-bottom: 20px; /* Espacio entre el formulario y otros elementos */
+}
+
+.fila {
+  display: flex;
+  align-items: baseline; /* Alinear verticalmente el texto y los inputs */
+  margin-bottom: 5px; /* Espacio entre filas */
+}
+
+.fila label {
+  width: 20%; /* Ancho del campo de etiqueta */
+  text-align: right; /* Alinear el texto a la derecha */
+  margin-right: 5px; /* Espacio entre etiqueta y input */
+}
+
+.fila input,
+.fila button {
+  width: 75%; /* Ancho del campo de entrada */
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+.fila button {
+  margin-left: 10px; /* Espacio entre botones */
+}
+
+.menu {
+  grid-column: 1 / 4; /* Ocupa las columnas 1 a 3 */
+  background-color: #f0f0f0;
+  padding: 10px;
+}
+
+.contenido {
+  grid-column: 4 / 13; /* Ocupa las columnas 4 a 12 */
+  padding: 10px;
+}
+
+
+ table {
+  border-collapse: collapse; /* Para que los bordes se superpongan */
+}
+
+th, td {
+  border: 1px solid #ccc; /* Borde externo para las celdas */
+  padding: 5px; /* Espacio interno en las celdas */
+  white-space: nowrap; /* Evitar que el texto se envuelva en varias líneas */
+  overflow: hidden; /* Ocultar el texto que exceda el ancho de la celda */
+}
+
+th {
+  background-color: #eee; /* Color de fondo para los encabezados */
+  border-radius: 5px; /* Redondear las esquinas de las celdas */
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2); /* Sombra interna suave */
+}
+
+td {
+  border-radius: 5px; /* Redondear las esquinas de las celdas */
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.2); /* Sombra interna suave */
+}
